@@ -28,5 +28,9 @@ sudo crontab -u root -e
 10. Wait for the time to see if backup really happens or not or adjust this time really close to your current time to see the backup quickly.
 11. Now, Your Automated Backup is complete.
 12. Congrats, Your are taking the backup of /Confidential file to /Backup/$date/ daily one a day, everyday of month at 14:2 time.
-
+13. Now check system log:
+```
+sudo cat /var/log/syslog
+```
+14. Confirmed if it ran or not.
 
